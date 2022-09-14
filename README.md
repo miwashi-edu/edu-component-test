@@ -82,3 +82,17 @@ curl -L https://gist.github.com/miwashiab/96c06acbeacd524b190eb2d6a30f0aef/raw/u
 curl -L https://gist.github.com/miwashiab/08f8c39413ed941848b4bd3a5c97e24d/raw/user.js -o ./controllers/user.js
 ```
 
+## Empty Suptertest
+[gist](https://gist.github.com/miwashiab/1a71d9ebfdd9f0b5f2a1ddbb5783d37b)
+
+```bash
+curl -L https://gist.github.com/miwashiab/1a71d9ebfdd9f0b5f2a1ddbb5783d37b/raw/supertest.js -o ./__tests__/supertest.js
+```
+
+## Empty Chai-HTTP
+[gist](https://gist.github.com/miwashiab/efdeba15b6521092b895da6ff569dd93)
+
+```bash
+curl -L https://gist.github.com/miwashiab/efdeba15b6521092b895da6ff569dd93/raw/chai-http.js -o ./__tests__/chai-http.js
+```
+
