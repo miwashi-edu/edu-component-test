@@ -43,8 +43,8 @@ sed -i 's/index.js/server.js/' package.json
 curl -L https://gist.github.com/miwashiab/d8b6c8c12d3a4426336d89c5b59e2682/raw/server.js -o server.js
 curl -L https://gist.github.com/miwashiab/0aaef90dc59a656e5f2c235a81424537/raw/user.js -o ./routes/user.js
 curl -L https://gist.github.com/miwashiab/96c06acbeacd524b190eb2d6a30f0aef/raw/user.js -o ./controllers/user.js
-curl -L https://gist.github.com/miwashiab/1a71d9ebfdd9f0b5f2a1ddbb5783d37b/raw/supertest.js -o ./__test__/supertest.js
-curl -L https://gist.github.com/miwashiab/efdeba15b6521092b895da6ff569dd93/raw/chai-http.js -o ./__test__/chai-http.js
+curl -L https://gist.github.com/miwashiab/1a71d9ebfdd9f0b5f2a1ddbb5783d37b/raw/supertest.js -o ./__tests__/supertest.js
+curl -L https://gist.github.com/miwashiab/efdeba15b6521092b895da6ff569dd93/raw/chai-http.js -o ./__tests__/chai-http.js
 code .
 ```
 
