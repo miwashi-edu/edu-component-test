@@ -50,7 +50,7 @@ code .
 [gist](https://gist.github.com/miwashiab/d8b6c8c12d3a4426336d89c5b59e2682)  
 
 ```bash
-curl -L https://gist.github.com/miwashiab/d8b6c8c12d3a4426336d89c5b59e2682/raw/user.js -o server.js
+curl -L https://gist.github.com/miwashiab/d8b6c8c12d3a4426336d89c5b59e2682/raw/server.js -o server.js
 ```
 
 ## User Routes
