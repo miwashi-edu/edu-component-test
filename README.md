@@ -96,3 +96,16 @@ curl -L https://gist.github.com/miwashiab/1a71d9ebfdd9f0b5f2a1ddbb5783d37b/raw/s
 curl -L https://gist.github.com/miwashiab/efdeba15b6521092b895da6ff569dd93/raw/chai-http.js -o ./__tests__/chai-http.js
 ```
 
+## Supertest Examples
+[gist](https://gist.github.com/miwashiab/e532fc7628796103c861cd6339b9c18e)
+
+```bash
+curl -L https://gist.github.com/miwashiab/e532fc7628796103c861cd6339b9c18e/raw/supertest.js -o ./__tests__/supertest.js
+```
+
+## Chai-HTTP Examples
+n/a
+
+```bash
+#
+```
