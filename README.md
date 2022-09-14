@@ -39,13 +39,49 @@ echo ".env" >> .gitignore
 echo ".env.test" >> .gitignore
 git add .
 git commit -m "initial commit"
-sed -i 's/index.js/server.js/' package.json
+sed -i '' 's/index.js/server.js/' package.json
 curl -L https://gist.github.com/miwashiab/d8b6c8c12d3a4426336d89c5b59e2682/raw/server.js -o server.js
 curl -L https://gist.github.com/miwashiab/0aaef90dc59a656e5f2c235a81424537/raw/user.js -o ./routes/user.js
 curl -L https://gist.github.com/miwashiab/96c06acbeacd524b190eb2d6a30f0aef/raw/user.js -o ./controllers/user.js
 curl -L https://gist.github.com/miwashiab/1a71d9ebfdd9f0b5f2a1ddbb5783d37b/raw/supertest.js -o ./__tests__/supertest.js
 curl -L https://gist.github.com/miwashiab/efdeba15b6521092b895da6ff569dd93/raw/chai-http.js -o ./__tests__/chai-http.js
 code .
+```
+## package.json
+
+```json
+{
+  "name": "edu-component-test",
+  "version": "1.0.0",
+  "description": "Simple CRUD Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miwashi-edu/edu-component-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miwashi-edu/edu-component-test/issues"
+  },
+  "homepage": "https://github.com/miwashi-edu/edu-component-test#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "jest": "^29.0.3",
+    "nodemon": "^2.0.19",
+    "supertest": "^6.2.4"
+  }
+}
 ```
 
 ## Server
