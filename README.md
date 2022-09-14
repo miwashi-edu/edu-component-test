@@ -32,6 +32,9 @@ echo ".env.test" >> .gitignore
 git add .
 git commit -m "initial commit"
 sed -i 's/index.js/server.js/' package.json
+curl -L https://gist.github.com/miwashiab/d8b6c8c12d3a4426336d89c5b59e2682/raw/gistfile1.txt -o server.js
+curl -L https://gist.github.com/miwashiab/0aaef90dc59a656e5f2c235a81424537/raw/gistfile1.txt -o ./routes/user.js
+curl -L https://gist.github.com/miwashiab/96c06acbeacd524b190eb2d6a30f0aef/raw/gistfile1.txt -o ./controllers/user.js
 code .
 ```
 [./controllers/user.js](https://gist.github.com/miwashiab/96c06acbeacd524b190eb2d6a30f0aef)   
