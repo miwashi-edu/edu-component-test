@@ -1,5 +1,12 @@
 # edu-component-test
 
+## Info
+
+[Artikel](https://rahmanfadhil.com/test-express-with-supertest/)
+[Video](https://www.youtube.com/watch?v=r5L1XRZaCR0)
+
+## Instrctions
+
 ```bash
 cd ~
 cd ws
