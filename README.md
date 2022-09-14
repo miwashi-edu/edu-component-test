@@ -14,6 +14,7 @@ mkdir edu-component-testing
 cd edu-component-testing
 npm init -y
 npm install express
+npm install uuid
 npm install jest --save-dev
 npm install chai --save-dev
 npm install chai-http --save-dev
@@ -45,7 +46,12 @@ curl -L https://gist.github.com/miwashiab/96c06acbeacd524b190eb2d6a30f0aef/raw/u
 code .
 ```
 
-[server.js](https://gist.github.com/miwashiab/d8b6c8c12d3a4426336d89c5b59e2682)  
+## Server
+[gist](https://gist.github.com/miwashiab/d8b6c8c12d3a4426336d89c5b59e2682)  
+
+```bash
+curl -L https://gist.github.com/miwashiab/d8b6c8c12d3a4426336d89c5b59e2682/raw/user.js -o server.js
+```
 
 ## User Routes
 ```bash
