@@ -48,9 +48,16 @@ code .
 [./routes/user.js](https://gist.github.com/miwashiab/0aaef90dc59a656e5f2c235a81424537)    
 [server.js](https://gist.github.com/miwashiab/d8b6c8c12d3a4426336d89c5b59e2682)  
 
+## User Controller Empty
+[gist](https://gist.github.com/miwashiab/96c06acbeacd524b190eb2d6a30f0aef)  
+```bash
+curl -L https://gist.github.com/miwashiab/96c06acbeacd524b190eb2d6a30f0aef/raw/user.js -o ./controllers/user.js
+```
+
+
 ## User Controller Fake
 
-[Gist](https://gist.github.com/miwashiab/08f8c39413ed941848b4bd3a5c97e24d)
+[gist](https://gist.github.com/miwashiab/08f8c39413ed941848b4bd3a5c97e24d)
 
 ```bash
 curl -L https://gist.github.com/miwashiab/08f8c39413ed941848b4bd3a5c97e24d/raw/user.js -o ./controllers/user.js
