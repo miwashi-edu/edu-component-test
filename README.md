@@ -44,9 +44,20 @@ curl -L https://gist.github.com/miwashiab/0aaef90dc59a656e5f2c235a81424537/raw/u
 curl -L https://gist.github.com/miwashiab/96c06acbeacd524b190eb2d6a30f0aef/raw/user.js -o ./controllers/user.js
 code .
 ```
-[./controllers/user.js](https://gist.github.com/miwashiab/96c06acbeacd524b190eb2d6a30f0aef)   
-[./routes/user.js](https://gist.github.com/miwashiab/0aaef90dc59a656e5f2c235a81424537)    
+
 [server.js](https://gist.github.com/miwashiab/d8b6c8c12d3a4426336d89c5b59e2682)  
+
+## User Routes
+```bash
+curl -L https://gist.github.com/miwashiab/0aaef90dc59a656e5f2c235a81424537/raw/user.js -o ./routes/user.js
+```
+[gist](https://gist.github.com/miwashiab/0aaef90dc59a656e5f2c235a81424537)
+
+## User Routes Swagger
+
+```bash
+#N/A
+```
 
 ## User Controller Empty
 [gist](https://gist.github.com/miwashiab/96c06acbeacd524b190eb2d6a30f0aef)  
